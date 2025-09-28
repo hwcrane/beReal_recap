@@ -4,9 +4,8 @@ import tqdm
 from PIL import ImageFont, ImageDraw, Image
 import numpy as np
 
-IMAGES_FOLDER = 'bereals 2023'
+IMAGES_FOLDER = 'bereals'
 YEAR = 2023
-
 
 def add_text(frame):
     font = ImageFont.truetype('Genera Grotesk Heavy.ttf', 300)
